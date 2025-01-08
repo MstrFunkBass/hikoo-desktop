@@ -1,0 +1,1 @@
+A python application to display an AI-generated image and Haiku as a windows background.
