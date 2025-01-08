@@ -3,8 +3,12 @@ import openai
 
 open_ai_api_key = os.environ['OPENAI_API_KEY']
 
-def return_haiku():
-    
+def return_haiku()->list:
+    """
+    Queries chatgpt 3.5 via openai api, and returns a Haiku.
+    The Haiku is split into 3 items in a list.
+    Example output: ["this is my haiku,", "it is the best I have done,", "thanks for listening"]
+    """
     openai.api_key = open_ai_api_key
 
     completion = openai.chat.completions.create(
