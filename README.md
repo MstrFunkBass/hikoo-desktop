@@ -10,7 +10,8 @@ A python application to display an AI-generated image and Haiku as a Windows bac
 
 ### Querying Chat-GPT
 This project contains python code to query OpenAI's Chatgpt to generate a Haiku, and generate an image based on the Haiku.  
-The OpenAI API is used for this which needs a secret key. This secret key is stored on the Windows device's environment variables.
+The OpenAI API is used for this which needs a secret key. This secret key is stored on the Windows device's environment variables.  
+I use chat-gpt 3.5 turbo, and each wallpaper refresh costs about $0.02.
 
 ### Processing the image and text
 These elements are then processed - using the Pillow python library - to create an image that can be used as a desktop wallpaper.  
